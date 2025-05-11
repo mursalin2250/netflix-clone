@@ -40,6 +40,7 @@ a{
     border: 1px solid rgba(255, 255, 255, 0.507);
     padding: 8px 60px 8px 10px;
     border-radius: 3px;
+
 }
 .email-input input::placeholder{
     font-size: small;
@@ -127,6 +128,9 @@ a{
     .vid-1 .video-2{
         height: 190px;
     }
+    .hero h1{
+        font-size: 30px !important;
+    }
 }
 @media(max-width:400px){
     .vid-1 video{
@@ -142,13 +146,21 @@ a{
         top: 30px;
     }
     .navbar-brand img{
-        width: 130px !important;
+        width: 110px !important;
     }
     .eng-btn, .sign-in-btn{
-        font-size: smaller !important;
+        font-size: xx-small !important;
     }
     .nav-btn{
         gap: 5px !important;
     }
-
+    .email-input input{
+        padding-right: 5px;
+    }
+    .hero .title-1, .hero .title-2{
+        font-size: medium !important;
+    }
+    *{
+        overflow-wrap:break-word;
+    }
 }
